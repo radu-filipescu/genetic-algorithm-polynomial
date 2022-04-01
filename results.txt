@@ -1,0 +1,373 @@
+Initial state:
+* 0:
+chromosome:     1001001101001111101000111
+variable value: -4.85981
+fitness:        -11.7157
+
+* 1:
+chromosome:     1100100100100010101111100
+variable value: 2.49902
+fitness:        14.2451
+
+* 2:
+chromosome:     1100010110000010110111000
+variable value: 2.00348
+fitness:        11.8167
+
+* 3:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.7319
+
+* 4:
+chromosome:     1000100010101110101000110
+variable value: -6.31298
+fitness:        -14.2812
+
+* 5:
+chromosome:     1101101010100000111100111
+variable value: 4.89065
+fitness:        27.3463
+
+* 6:
+chromosome:     0011010111101110001011111
+variable value: -17.6267
+fitness:        -5.36669
+
+* 7:
+chromosome:     0001000100011010101100110
+variable value: -22.6615
+fitness:        15.0628
+
+* 8:
+chromosome:     1010100000111111101100110
+variable value: -1.99723
+fitness:        -4.19114
+
+* 9:
+chromosome:     1011111001100000100000101
+variable value: 1.02811
+fitness:        7.32382
+
+*10:
+chromosome:     1110101111011000101110011
+variable value: 7.24465
+fitness:        42.4756
+
+*11:
+chromosome:     0100110010101101000011001
+variable value: -14.517
+fitness:        -12.9194
+
+*12:
+chromosome:     0101011101100011011001001
+variable value: -13.0524
+fitness:        -15.1366
+
+*13:
+chromosome:     1011100101101111100010101
+variable value: 0.352539
+fitness:        4.43501
+
+*14:
+chromosome:     0111101111011010000100001
+variable value: -8.06713
+fitness:        -16.2528
+
+*15:
+chromosome:     1011011010110111010010100
+variable value: -0.0192998
+fitness:        2.92288
+
+*16:
+chromosome:     1001110010011100110101011
+variable value: -3.58812
+fitness:        -8.77755
+
+*17:
+chromosome:     0010001100010000100111110
+variable value: -20.206
+fitness:        3.83235
+
+*18:
+chromosome:     0101001011101100010110011
+variable value: -13.6628
+fitness:        -14.3167
+
+*19:
+chromosome:     0010100000011011110111100
+variable value: -19.5164
+fitness:        1.11225
+
+selection chances:
+* 0: -0.147652
+* 1: 0.17953
+* 2: 0.148925
+* 3: 0.651971
+* 4: -0.179984
+* 5: 0.344642
+* 6: -0.0676357
+* 7: 0.189835
+* 8: -0.0528204
+* 9: 0.0923013
+*10: 0.535315
+*11: -0.162822
+*12: -0.190765
+*13: 0.0558939
+*14: -0.204832
+*15: 0.0368367
+*16: -0.110622
+*17: 0.0482987
+*18: -0.180432
+*19: 0.0140175
+
+selection intervals:
+-0.147652 0.0318781 0.180803 0.832773 0.652789 0.997431 0.929795 1.11963 1.06681 1.15911 1.69443 1.5316 1.34084 1.39673 1.1919 1.22874 1.11812 1.16641 0.985982 1 
+
+picking the next generation:
+random value: 0.20741 picked number: 3
+random value: 0.19000 picked number: 3
+random value: 0.69988 picked number: 5
+random value: 0.29953 picked number: 3
+random value: 0.57579 picked number: 3
+random value: 0.35350 picked number: 3
+random value: 0.89351 picked number: 5
+random value: 0.42855 picked number: 3
+random value: 0.78348 picked number: 5
+random value: 0.60333 picked number: 3
+random value: 0.96060 picked number: 7
+random value: 0.36805 picked number: 3
+random value: 0.57249 picked number: 3
+random value: 0.46696 picked number: 3
+random value: 0.43229 picked number: 3
+random value: 0.64214 picked number: 3
+random value: 0.68535 picked number: 5
+random value: 0.18136 picked number: 3
+random value: 0.01041 picked number: 1
+random value: 0.60198 picked number: 3
+
+new generation:
+* 0: 1111010101001110100100000
+* 1: 1111010101001110100100000
+* 2: 1101101010100000111100111
+* 3: 1111010101001110100100000
+* 4: 1111010101001110100100000
+* 5: 1111010101001110100100000
+* 6: 1101101010100000111100111
+* 7: 1111010101001110100100000
+* 8: 1101101010100000111100111
+* 9: 1111010101001110100100000
+*10: 0001000100011010101100110
+*11: 1111010101001110100100000
+*12: 1111010101001110100100000
+*13: 1111010101001110100100000
+*14: 1111010101001110100100000
+*15: 1111010101001110100100000
+*16: 1101101010100000111100111
+*17: 1111010101001110100100000
+*18: 1100100100100010101111100
+*19: 1111010101001110100100000
+
+crossover chance: 0.25000
+* 0: 0.66782 doesn't get selected
+* 1: 0.71701 doesn't get selected
+* 2: 0.92505 doesn't get selected
+* 3: 0.26653 doesn't get selected
+* 4: 0.84633 doesn't get selected
+* 5: 0.89724 doesn't get selected
+* 6: 0.52030 doesn't get selected
+* 7: 0.17853 gets selected
+* 8: 0.16640 gets selected
+* 9: 0.57892 doesn't get selected
+*10: 0.22817 gets selected
+*11: 0.20810 gets selected
+*12: 0.09087 gets selected
+*13: 0.02234 gets selected
+*14: 0.44055 doesn't get selected
+*15: 0.95176 doesn't get selected
+*16: 0.35919 doesn't get selected
+*17: 0.86447 doesn't get selected
+*18: 0.47643 doesn't get selected
+*19: 0.88236 doesn't get selected
+
+the swaps will be:
+1111010101001110100100000 <-> 1101101010100000111100111
+0001000100011010101100110 <-> 1111010101001110100100000
+1111010101001110100100000 <-> 1111010101001110100100000
+
+after crossover:
+* 0: 1111010101001110100100000
+* 1: 1111010101001110100100000
+* 2: 1101101010100000111100111
+* 3: 1111010101001110100100000
+* 4: 1111010101001110100100000
+* 5: 1111010101001110100100000
+* 6: 1101101010100000111100111
+* 7: 1101101010101110100100000
+* 8: 1111010101000000111100111
+* 9: 1111010101001110100100000
+*10: 1111010101001110101100110
+*11: 0001000100011010100100000
+*12: 1111010101001110100100000
+*13: 1111010101001110100100000
+*14: 1111010101001110100100000
+*15: 1111010101001110100100000
+*16: 1101101010100000111100111
+*17: 1111010101001110100100000
+*18: 1100100100100010101111100
+*19: 1111010101001110100100000
+
+mutation chance: 0.01000
+after mutations:
+* 0:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+* 1:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+* 2:
+chromosome:     1101101010100000111100111
+variable value: 4.89065
+fitness:        27.34627
+
+* 3:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+* 4:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+* 5:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+* 6:
+chromosome:     1101101010100000111100111
+variable value: 4.89065
+fitness:        27.34627
+
+* 7:
+chromosome:     1101101010101110100100000
+variable value: 4.89791
+fitness:        51.73187
+
+* 8:
+chromosome:     1111010101000000111100111
+variable value: 8.53078
+fitness:        27.34627
+
+* 9:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+*10:
+chromosome:     1111010101001110101100110
+variable value: 8.53812
+fitness:        15.06283
+
+*11:
+chromosome:     0001000100011010100100000
+variable value: -22.66160
+fitness:        51.73187
+
+*12:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+*13:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+*14:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+*15:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+*16:
+chromosome:     1101101010100000111100111
+variable value: 4.89065
+fitness:        27.34627
+
+*17:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+*18:
+chromosome:     1100100100100010101111100
+variable value: 2.49902
+fitness:        14.24512
+
+*19:
+chromosome:     1111010101001110100100000
+variable value: 8.53805
+fitness:        51.73187
+
+
+evolution:
+value: 51.73206 polynomial variable: 8.53808
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73193 polynomial variable: 8.53806
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
+value: 60.08153 polynomial variable: 9.63180
+value: 60.08153 polynomial variable: 9.63180
+value: 60.08153 polynomial variable: 9.63180
+value: 60.08153 polynomial variable: 9.63180
+value: 60.08153 polynomial variable: 9.63180
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
+value: 51.85866 polynomial variable: 8.55514
+value: 51.85866 polynomial variable: 8.55514
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73189 polynomial variable: 8.53805
+value: 51.73189 polynomial variable: 8.53805
+value: 51.73189 polynomial variable: 8.53805
+value: 51.73189 polynomial variable: 8.53805
+value: 51.73189 polynomial variable: 8.53805
+value: 51.73189 polynomial variable: 8.53805
+value: 51.73189 polynomial variable: 8.53805
+value: 52.22381 polynomial variable: 8.60427
+value: 51.85867 polynomial variable: 8.55514
+value: 51.85867 polynomial variable: 8.55514
+value: 52.22381 polynomial variable: 8.60427
+value: 52.22381 polynomial variable: 8.60427
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
+value: 51.73187 polynomial variable: 8.53805
